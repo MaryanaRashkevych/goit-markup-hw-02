@@ -1,0 +1,92 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+  font-style: normal;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.nav-items {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.nav-items :hover {
+  color: #404bbf;
+}
+.nav-items :active {
+  color: #404bbf;
+}
+.contacts {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.contacts :hover {
+  color: #404bbf;
+}
+.contacts :focus {
+  color: #404bbf;
+}
+.main-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  background: #2e2f42;
+}
+.btn-order-service {
+  background-color: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.btn-order-service :hover {
+  background-color: #404bbf;
+}
+h2 {
+  color:#2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.features-list p {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.team-list h3 {
+ color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.team-list p {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
