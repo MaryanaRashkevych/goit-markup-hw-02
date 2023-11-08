@@ -8,6 +8,9 @@ ul,
 ol {
   list-style-type: none;
 }
+button {
+  cursor: pointer;
+}
 .nav-items {
   font-size: 16px;
   font-weight: 500;
@@ -54,13 +57,13 @@ ol {
   background-color: #404bbf;
 }
 h2 {
-  color:#2E2F42);
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.72px;
-text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 h3 {
   color: #2e2f42;
@@ -77,7 +80,7 @@ h3 {
   letter-spacing: 0.32px;
 }
 .team-list h3 {
- color: #2e2f42;
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -85,6 +88,13 @@ h3 {
 }
 .team-list p {
   color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.footer-text {
+  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
