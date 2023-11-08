@@ -13,9 +13,10 @@ button {
 }
 .logo {
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -23,16 +24,16 @@ button {
   color: #2e2f42;
 }
 .nav-items {
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.nav-items :hover {
+.nav-items:hover {
   color: #404bbf;
 }
-.nav-items :focus {
+.nav-items:focus {
   color: #404bbf;
 }
 .address-container {
@@ -68,8 +69,8 @@ button {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .btn-order-service:hover {
   background-color: #404bbf;
@@ -80,7 +81,7 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 0.72px;
+  letter-spacing: 1.11;
   text-transform: capitalize;
 }
 h3 {
@@ -90,7 +91,8 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.features-list p {
+.features-list p,
+.team-list p {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
