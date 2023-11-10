@@ -30,27 +30,30 @@ button {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.nav-items:hover {
+.nav-links {
+  color: #2e2f42;
+}
+.nav-links:hover {
   color: #404bbf;
 }
-.nav-items:focus {
+.nav-links:focus {
   color: #404bbf;
 }
 .address-container {
   font-style: normal;
   text-decoration: none;
 }
-.contacts {
+.contacts-links {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-.contacts:hover {
+.contacts-links:hover {
   color: #404bbf;
 }
-.contacts:focus {
+.contacts-links:focus {
   color: #404bbf;
 }
 .hero-section {
@@ -75,7 +78,10 @@ button {
 .btn-order-service:hover {
   background-color: #404bbf;
 }
-h2 {
+.btn-order-service:focus {
+  background-color: #404bbf;
+}
+.second-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -84,34 +90,17 @@ h2 {
   letter-spacing: 1.11;
   text-transform: capitalize;
 }
-h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.features-list p,
-.team-list p {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
 .team-container {
   background-color: #f4f4fd;
 }
-.team-list h3,
-.portfolio-list h3 {
+.third-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
-.team-list p,
-.portfolio-list p {
+.list-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
