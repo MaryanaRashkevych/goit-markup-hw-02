@@ -11,6 +11,9 @@ ol {
 button {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
